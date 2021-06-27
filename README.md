@@ -5,8 +5,8 @@
 
 
 ## RESOURCES
-  - SOURCE FILES:
-  - SOFTWARE:  
+  - Source Files: 
+  - Software: 
 
 
 ## RESULTS
