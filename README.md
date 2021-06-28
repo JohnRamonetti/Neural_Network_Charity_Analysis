@@ -1,7 +1,7 @@
 # Neural_Network_Charity_Analysis
 
 ## OVERVIEW
-### PURPOSE:  The purpose of the current analysis was to determine whether success can be predicted for organizations chosen to receive funding from Alphabet Soup Inc.  A dataset was received containing information about 34,000+ organizations that have received funding from Alphabet Soup in the past.  After preprocessing the data, a machine-learning model was used to analyze the data.  The model was then evaluated and optimized.
+### PURPOSE:  The purpose of the current analysis was to determine whether success can be predicted for organizations chosen to receive funding from Alphabet Soup Inc.   A dataset was received containing information about 34,000+ organizations that have received funding from Alphabet Soup in the past.  After preprocessing the data, a machine-learning model was used to analyze the data.  The model was then evaluated and optimized.
 
 ## RESOURCES
   - Source Files: [charity_data.csv](Resources/charity_data.csv)
