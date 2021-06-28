@@ -23,15 +23,16 @@
         - ASK_AMT—Funding amount requested
           Additionally, the "NAME" field, which was initially removed as unmeaningful, was later found to have a positive predictive correlation and was therefore included as a feature for the analysis.
 
-  -   - What variable(s) are neither targets nor features, and should be removed from the input data?
+   - What variable(s) are neither targets nor features, and should be removed from the input data?
           The "EIN" (Employee Identification Number) field is a unique identifier for each organization and was of no value for the analysis.  It was removed during pre-processing of the data.
 
   - Compiling, Training, and Evaluating the Model
-  -   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-  -       During optimization, we found that 2 hidden layers seemed to optimize our accuracy.  The first had 80 neurons, and the second had 30.  The "ReLu" activation function seemed most effective ("Sigmoid" was used for the output layer).
-  -   - Were you able to achieve the target model performance?
-  -       Several permutations of layers/neurons and other manipulations had little impact on the accuracy results.  However, we found that including the "NAME" field actually had a significant impact and , after binning the low-frequency "NAMEs", the model's accuracy was increase to 78%, a notable increase from the initial accuracy of 72-73%.
-  -   - What steps did you take to try and increase model performance?  In attempting to optimize the model, we tried different activation functions, optimizers, numbers of layers and nodes, as well as manipulating the size and number of data buckets.
+    - How many neurons, layers, and activation functions did you select for your neural network model, and why?
+        During optimization, we found that 2 hidden layers seemed to optimize our accuracy.  The first had 80 neurons, and the second had 30.  The "ReLu" activation function seemed most effective ("Sigmoid" was used for the output layer).
+    - Were you able to achieve the target model performance?
+        Several permutations of layers/neurons and other manipulations had little impact on the accuracy results.  However, we found that including the "NAME" field actually had a significant impact and , after binning the low-frequency "NAMEs", the model's accuracy was increase to 78%, a notable increase from the initial accuracy of 72-73%.
+    - What steps did you take to try and increase model performance?  
+        In attempting to optimize the model, we tried different activation functions, optimizers, numbers of layers and nodes, as well as manipulating the size and number of data buckets.
 
 ## SUMMARY
 ### Overall, we were surprised to find that most of our manipulations to optimize the model were very limited in their impact.  We were also surprised to find the postive predictive effect of including the "NAME" field.  Ultimately, we think it would be worth trying other machine learning algorithms to see if their accuracy is better.  We'd try Random Forest for starters, but other logistic regression models might be valuable as well.
