@@ -30,7 +30,7 @@
     - How many neurons, layers, and activation functions did you select for your neural network model, and why?
         During optimization, we found that 2 hidden layers seemed to optimize our accuracy.  The first had 80 neurons, and the second had 30.  The "ReLu" activation function seemed most effective ("Sigmoid" was used for the output layer).
     - Were you able to achieve the target model performance?
-        Several permutations of layers/neurons and other manipulations had little impact on the accuracy results.  However, we found that including the "NAME" field actually had a significant impact and , after binning the low-frequency "NAMEs", the model's accuracy was increase to 78%, a notable increase from the initial accuracy of 72-73%.
+        Several permutations of layers/neurons and other manipulations had little impact on the accuracy results.  However, we found that including the "NAME" field actually had a significant impact and , after [binning the low-frequency "NAMEs"](Images/binning.png), the model's accuracy was increase to [78%](Images/optimized.png), a notable increase from the initial accuracy of [72-73%.](Images/initial.png)
     - What steps did you take to try and increase model performance?  
         In attempting to optimize the model, we tried different activation functions, optimizers, numbers of layers and nodes, as well as manipulating the size and number of data buckets.
 
