@@ -21,7 +21,7 @@
         - INCOME_AMT—Income classification
         - SPECIAL_CONSIDERATIONS—Special consideration for application
         - ASK_AMT—Funding amount requested
-          Additionally, the "NAME" field, which was initially removed as unmeaningful, was later found to have a positive predictive correlation and was therefore included as a feature for the analysis.
+        - Additionally, the "NAME" field, which was initially removed as unmeaningful, was later found to have a positive predictive correlation and was therefore included as a feature for the analysis.
 
    - What variable(s) are neither targets nor features, and should be removed from the input data?
           The "EIN" (Employee Identification Number) field is a unique identifier for each organization and was of no value for the analysis.  It was removed during pre-processing of the data.
