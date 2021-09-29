@@ -35,7 +35,7 @@
         In attempting to optimize the model, we tried different activation functions, optimizers, numbers of layers and nodes, as well as manipulating the size and number of data buckets.
 
 ## SUMMARY
-### Overall, we were surprised to find that most of our manipulations to optimize the model were very limited in their impact.  We were also surprised to find the postive predictive effect of including the "NAME" field.  Ultimately, we think it would be worth trying other machine learning algorithms to see if their accuracy is better.  We'd try Random Forest for starters, but other logistic regression models might be valuable as well.
+### Overall, we were surprised to find that most of our manipulations to optimize the model were very limited in their impact.  We were also surprised to find the positive predictive effect of including the "NAME" field.  Ultimately, we think it would be worth trying other machine learning algorithms to see if their accuracy is better.  We'd try Random Forest for starters, but other logistic regression models might be valuable as well.
 
 ####################################################
 
